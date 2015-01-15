@@ -22,7 +22,6 @@ public class RestClient {
 	    		.request()
 	    		.accept(MediaType.APPLICATION_JSON)
 	    		.get(String.class);
-	    System.out.println(message);
 	    return message;
 	}
 	
@@ -31,7 +30,6 @@ public class RestClient {
 	    		.request()
 	    		.accept(MediaType.APPLICATION_JSON)
 	    		.get(String.class);
-	    System.out.println(message);
 	    return message;
 	}
 	
@@ -40,7 +38,6 @@ public class RestClient {
 	    		.request()
 	    		.accept(MediaType.APPLICATION_JSON)
 	    		.get(String.class);
-		System.out.println(message);
 	    return message;
 	}
 	
@@ -50,7 +47,6 @@ public class RestClient {
 		.accept(MediaType.APPLICATION_JSON)
 		.get(String.class);
 		message="Update the data successful!";
-		System.out.println(message);
 	    return message;
 	}
 	private static URI getBaseURI() {
